@@ -19,6 +19,7 @@ body{
     width: 325px;
     height: auto;
     gap: 50px;
+    padding-right: 100px;
 
     /* Background Settings */
     background-color: rgb(0, 142, 190);
@@ -107,10 +108,143 @@ body{
 
     /* Flex Settings */
     width: 100%;
-    height: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
     /* Background Settings */
     background-color: white;
+}
+
+.first-line-container{
+
+    /* Flex Settings */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.search-container{
+
+    /* Flex Settings */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-left: 50px;
+}
+
+.profile-container{
+
+    /* Flex Settings */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-right: 50px;
+}
+
+.second-line-container{
+
+    /* Flex Settings */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.greeting-container{
+
+    /* Flex Settings */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-left: 50px;
+}
+
+.column-container{
+
+    /* Flex Settings */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.button-container{
+
+    /* Flex Settings */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-right: 50px;
+}
+
+.interactive-button{
+
+    /* Flex Settings */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 25px;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(0, 142, 190);
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.profile-name{
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.greeting-text{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.username-text{
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#search_bar{
+    border: none;
+    border-radius: 25px;
+    width: 600px;
+    height: 25px;
+    background-color: rgba(165, 170, 210, 0.314);
+}
+
+.content-symbol{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.profile-picture-up{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.profile-picture-down{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 .section3{
@@ -118,7 +252,139 @@ body{
     /* Flex Settings */
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: flex-start;
 
     /* Background Settings */
-    background-color: grey;
+    background-color: rgb(202, 202, 202);
 }
+
+.content-header-1{
+
+    /* Flex Settings */
+    display: flex;
+    flex-direction: column;
+
+    /* Background Settings */
+    width: auto;
+    height: auto;
+    margin: 25px;
+}
+
+.content-header-column{
+
+    /* Flex Settings */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    width: 400px;
+    margin: 25px;
+    margin-right: 50px;
+    
+}
+
+.content-header-2{
+
+    /* Flex Settings */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content-header-3{
+
+    /* Flex Settings */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 50px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 15px;
+    width: 450px;
+    height: 200px;
+    text-align: left;
+    padding: 25px;
+    border-left: 10px solid orange;
+}
+
+.symbol-container{
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    gap: 25px;
+}
+
+.announce-container{
+    background-color: white;
+    padding: 50px;
+    text-align: left;
+}
+
+.trending-container{
+    background-color: white;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.header-text{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+hr{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.user-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+    text-align: left;
+}
+
+.card-header{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.card-header-text{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-text{
+    font-size: 16px;
+}
+
+.user-text{
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color: grey;
+}
+
+.desc-text{
+    font-size: 15px;
+    color: grey;
+}
+
